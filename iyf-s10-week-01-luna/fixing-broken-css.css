@@ -1,0 +1,14 @@
+/* This box ends up 340px wide - why? Fix it! */
+.broken-box {
+    width: 300px;
+    padding: 20px;
+    border: none;
+}
+
+/* This box ends up 340px wide - why? Fix it! */
+.broken-box {
+    width: 300px;
+    padding: 20px;
+    border: none;
+    box-sizing: border-box; /* Add this line to include padding and border in the total width */
+}
