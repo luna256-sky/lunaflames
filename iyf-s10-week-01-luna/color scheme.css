@@ -1,0 +1,33 @@
+:root {
+    /* typography */
+    --color-text: var(--gray-10);
+    --color-text-heading: var(--black);
+    --color-text-subtle: var(--gray-6);
+    --color-link: var(--color-primary);
+    --color-link-visited: var(--color-primary-dark);
+}
+
+.theme--dark {
+    /* not supported yet, but soon! */
+    --color-text: var(--gray-1);
+    --color-text-heading: var(--white);
+    --color-text-subtle: var(--gray-4);
+    --color-link: var(--color-accent);
+}
+
+.theme--dark {
+    /* what we can do for now */
+    color: var(--gray-1);
+
+    h1, h2, h3, h4 {
+        color: var(--white);
+    }
+
+    .text--subtle {
+        color: var(--gray-4);
+    }
+
+    a {
+        color: var(--color-accent);
+    }
+}
