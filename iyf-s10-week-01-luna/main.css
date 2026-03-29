@@ -1,8 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #f0f0f0;
@@ -12,7 +9,7 @@ body{
     padding:20px ;
 
 }
-.card header{
+ header{
     background-color: #4CAF50;
     color: white;
     padding: 1rem;
@@ -24,20 +21,20 @@ body{
     color: black;
     font-weight: 100;
 }
-.card .p{
+.content p{
     margin: 1rem 0;
     font-style: italic;
 }
-.card a{
+ a{
     color: #4CAF50;
     text-decoration: none;
 
 }
-.card a:hover{
+ a:hover{
     text-decoration: underline;
     color: blueviolet;
 }
-.card a:visited{
+ a:visited{
     color: #af634c;
 }
 img{
@@ -51,4 +48,13 @@ img{
     border: 1px solid #ccc;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     width: 300px;
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
 }
