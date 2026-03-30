@@ -13,7 +13,7 @@
         }
         .container{
             display:grid ;
-            grid-template-columns:1fr 2fr 1fr ;
+            grid-template-columns:1fr;
             gap: 20px;
             max-width:1200px ;
             margin: auto;
@@ -21,19 +21,25 @@
             background-color: aliceblue;
             border:20px solid black;
         }
-        .sidebar{
-            float: left;
+        .left-sidebar{
+            
+            width: 25%;
+            padding: 20px;
+            background-color: lightgray;
+        }
+        .right-sidebar{
             width: 25%;
             padding: 20px;
             background-color: lightgray;
         }
         .footer{
-            clear: both;
+            font-size: medium;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             text-align: center;
             padding: 10px;
             background-color: lightgray;
         }
-        .img{
+        img{
             width: 100%;
             height: 200px;
             object-fit: cover;
@@ -55,7 +61,7 @@
         
     </style>
     </head>
-</html>
+
 <body>
     <header>
         <h1>The Bright world of lighting</h1>
@@ -81,6 +87,7 @@
             <p>Below is a picture of lighting:</p>
             <img src="https://images.pexels.com/photos/17610011/pexels-photo-17610011.jpeg" alt="lighting">
         </article>
+        </section>
 
         <aside class="right-sidebar">
             <h2>Random facts</h2>
@@ -88,13 +95,19 @@
             <p>Cats's slow blink is a sign of affection</p>
             <p>Tempertaure in which the mother crocoidle is in determines the gender of the infact crocodile</p>
         </aside>
+    
+    </main>
 
         <div class="footer">
             <p>Copyright 2026</p>
             <p>All rights reserved</p>
 
         </div>
-
-
-    </main>
 </body>
+</html>
+
+        
+       
+
+
+    
