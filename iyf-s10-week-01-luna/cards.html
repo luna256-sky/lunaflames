@@ -1,0 +1,93 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Layout</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* FLEX CONTAINER */
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* CARD */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* IMAGE */
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* BUTTON */
+.button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #0056b3;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card-container">
+
+  <div class="card">
+    <h2>Beautiful Sunset</h2>
+    <img src="https://images.pexels.com/photos/27058631/pexels-photo-27058631.png" alt="sunset">
+    <p>This is a simple card component.</p>
+    <div class="button">
+      <button>Read More</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Starry Night</h2>
+    <img src="https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg" alt="starry night">
+    <p>The beauty of the world when the sun goes down.</p>
+    <div class="button">
+      <button>Read More</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Beautiful Beach</h2>
+    <img src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg" alt="beach">
+    <p>The beauty of the world when the sun is up.</p>
+    <div class="button">
+      <button>Read More</button>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
+```
