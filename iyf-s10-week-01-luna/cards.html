@@ -9,7 +9,37 @@
 <a href="footer.html">Footer</a>
 
 <style>
+.navbar {
+           display: flex;
+            background-color: #333;
+            justify-content: space-between;
+            align-items:center;       
+            padding: 10px;
+        }
+        .navbar logo{
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+
+        }
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+            color:blue
+        }
+        .navbar a:visited{
+            color:brown;
+        }
+        .navbar links{
+            display: flex;
+            gap: 20px;
+        }
 body {
+    
   font-family: Arial, sans-serif;
 }
 
@@ -54,10 +84,36 @@ body {
 .button button:hover {
   background-color: #0056b3;
 }
+.footer {
+  background: #333;
+  color: rgb(255, 144, 144);
+  padding: 20px;
+}
+
+/* TOP ROW */
+.footer-top {
+  display: flex; 
+  justify-content: space-between;
+}
+
+/* BOTTOM TEXT */
+.footer-bottom {
+  text-align: center; 
+  margin-top: 20px;
+}
 </style>
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="logo">My Website</div>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
 
 <div class="card-container">
 
@@ -90,6 +146,19 @@ body {
   </div>
 
 </div>
+
+<footer class="footer">
+
+        <div class="footer-top">
+            <div>About column</div>
+            <div>Link column</div>
+            <div>Contact column</div>
+        </div>
+
+        <div class="footer bottom"
+        copyright="2026">
+    </div>
+    </footer>
 
 </body>
 </html>
