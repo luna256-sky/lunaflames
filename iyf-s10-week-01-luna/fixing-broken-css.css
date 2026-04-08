@@ -6,7 +6,7 @@
 }
 
 /* This box ends up 340px wide - why? Fix it! */
-.broken-box {
+.fixed-box {
     width: 300px;
     padding: 20px;
     border: none;
