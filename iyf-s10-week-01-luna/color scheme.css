@@ -1,33 +1,56 @@
-:root {
-    /* typography */
-    --color-text: var(--gray-10);
-    --color-text-heading: var(--black);
-    --color-text-subtle: var(--gray-6);
-    --color-link: var(--color-primary);
-    --color-link-visited: var(--color-primary-dark);
-}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Color Scheme Example</title>
+        <style>
+            body {
+                background-color: #f0f0f0;
+                color: #333;
+                font-family: Arial, sans-serif;
+                padding: 20px;
+            }
+            h1 {
+                color: #4CAF50;
+            }
+            p {
+                color: #555;
+            }
+            a {
+                color: #007bff;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+                color: #0056b3;
+            }
+            a:visited {
+                color: #af634c;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My Colorful Website</h1>
+        <p>This is an example of a website with a color scheme.</p>
+        <p>The background is light gray, the heading is green, and the text is dark gray.</p>
 
-.theme--dark {
-    /* not supported yet, but soon! */
-    --color-text: var(--gray-1);
-    --color-text-heading: var(--white);
-    --color-text-subtle: var(--gray-4);
-    --color-link: var(--color-accent);
-}
+        <h2>More Colors</h2>
+        <p>You can use different colors for different elements to create a visually appealing design.</p>
+        <p>For example, you could use blue for links and red for important messages.</p>
 
-.theme--dark {
-    /* what we can do for now */
-    color: var(--gray-1);
+        <h3>Color Scheme Tips</h3>
+        <ul>
+            <li>Choose a primary color and use it consistently throughout your design.</li>
+            <li>Use complementary colors to create contrast and make important elements stand out.</li>
+            <li>Consider the emotions that different colors evoke and choose colors that align with the message you want to convey.</li>
+        </ul>
 
-    h1, h2, h3, h4 {
-        color: var(--white);
-    }
-
-    .text--subtle {
-        color: var(--gray-4);
-    }
-
-    a {
-        color: var(--color-accent);
-    }
-}
+    <div class buttons>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="https://en.wikipedia.org/wiki/Sunset" class="btn btn-primary">Learn More</a>
+    </div>
+    </body>
+</html>
