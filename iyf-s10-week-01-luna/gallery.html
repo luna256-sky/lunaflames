@@ -6,50 +6,38 @@
     <title>Gallery</title>
     
     <style>
-    .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
+    body {
+      font-family: Arial;
+      text-align: center;
+      background: #f4f4f4;
     }
+
+    h1 {
+      margin: 20px;
+    }
+
     .gallery img {
-        width: 200px;
-        height: auto;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 200px;
+      margin: 10px;
+      border-radius: 10px;
     }
-    </style>
-</head> 
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
 
 <body>
-    
     <div class="gallery">
     <h1>Gallery</h1>
     <img src="https://images.pexels.com/photos/27058631/pexels-photo-27058631.png" alt="sunset">
     <img src="https://images.pexels.com/photos/9407386/pexels-photo-9407386.jpeg" alt="wave">
     <img src="https://images.pexels.com/photos/34375615/pexels-photo-34375615.jpeg" alt="waterfall">
-    <img src=""
-  font-size: 0.95rem;
-  color: #555;
-  line-height: 1.4;
-  margin-bottom: 15px;
-}
-
-
-.btn {
-  display: inline-block;
-  padding: 10px 15px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 5px;
-  background-color: #007bff;
-  color: #fff;
-  transition: background-color 0.2s ease;
-}
-
-.btn:hover {
-  background-color: #0056b3;
-}
-</div>
+    <img src="https://images.pexels.com/photos/9837044/pexels-photo-9837044.jpeg" alt="beach">
+    </div>
 </body>
+</html>
+
+
+
