@@ -1,129 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magazine</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magazine</title>
 
-    <style>
-        *{
-            margin:0 ;   
-            padding: 0;                                                              ;
-            box-sizing: border-box;
-        }
-        .container{
-            display:grid ;
-            grid-template-columns: 1fr 2fr 1fr;
-             gap: 20px;
-            max-width:1200px ;
-            margin: auto;
-            padding: 20px;
-            background-color: aliceblue;
-            border:20px solid black;
-        }
-        .left-sidebar{
-            
-            
-            padding: 20px;
-            background-color: lightgray;
-        }
-        .right-sidebar{
-            
-            padding: 20px;
-            background-color: lightgray;
-        }
-        .footer{
-            footer {
-           font-size: medium;
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-   
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-        }
-        img{
-            
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            margin: 10px 0;
-        }
-        header{
-            text-align: center;
-            padding: 20px;
-            font: bold 24px Arial, sans-serif;
-            color:blue;
-        }
-        p{
-            font-size: 16px;
-            line-height: 1.5;
-            font:italic 16px Arial, sans-serif;
-        }
-        .Lighting {
-            background: white;
-            padding: 20px;
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
 }
-        
-        
-    </style>
-    </head>
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: white;
+}
+
+header h1 {
+    color: blue;
+}
+
+header p {
+    font-style: italic;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.left-sidebar,
+.right-sidebar,
+.main-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+</style>
+</head>
 
 <body>
-    <header>
-        <h1>The Facinating world of nature </h1>
-        <p>Let us dive into the natures beauty and some facinating facts about some of our wildlife</p>
-        
-    </header>
 
-   <main class="container">
+<header>
+    <h1>The Fascinating World of Nature</h1>
+    <p>Let us dive into nature's beauty and discover amazing facts about wildlife</p>
+</header>
+
+<main class="container">
 
     <aside class="left-sidebar">
         <h2>Waterfalls</h2>
-        <p>Take a look at one of the worlds most beautiful and dangerous natural occurances</p>
+        <p>Take a look at some of the world's most beautiful and powerful natural occurrences.</p>
         <img src="https://images.pexels.com/photos/35298138/pexels-photo-35298138.jpeg" alt="waterfall">
         <img src="https://images.pexels.com/photos/5237694/pexels-photo-5237694.jpeg" alt="waterfall">
-        <img src="https://images.pexels.com/photos/11216648/pexels-photo-11216648.jpeg"alt="waterfall">
-        <a href="https://en.wikipedia.org/wiki/Lilium" class="btn btn-primary">Learn More</a>
-   </aside>
+        <img src="https://images.pexels.com/photos/11216648/pexels-photo-11216648.jpeg" alt="waterfall">
+        <a href="https://en.wikipedia.org/wiki/Sunset" class="btn btn-primary">Learn More</a>
+    </aside>
 
-        section class="lighting">
+    <section class="main-content">
         <article>
-            <h2> Lighting</h2>
-            <h3>fun facts about lighting</h3>
-            <p>Here are some interesting facts about lighting!</p><br></br>
-            <p>Lighting is actually hotter than the sun</p><br></br>
-            <p>The sun's surface is about 10,000 degress F while lighting hits 54000 degrees F per second</p><br></br>
-            <p>lighting can strike the same place twice</p><br></br>
-            <p>Below  are pictures of lighting:</p>
-            <img src="https://images.pexels.com/photos/17610011/pexels-photo-17610011.jpeg" alt="lighting">
-            <img src="https://images.pexels.com/photos/6942372/pexels-photo-6942372.jpeg" alt="lighting">
-        </article><a href="https://en.wikipedia.org/wiki/Lilium" class="btn btn-primary">Learn More</a>
-        </section>
+            <h2>Lightning</h2>
+            <h3>Fun Facts About Lightning</h3>
 
-        <aside class="right-sidebar">
-            <h2>Random facts</h2>
-            <p>Lizard communicate via pushups</p><br></br>
-    
-            <p>Cats's slow blink is a sign of affection</p><br></br>
-            <p>Tempertaure in which the mother crocoidle is in determines the gender of the infact crocodile</p><br></br>
-            <img src="https://images.pexels.com/photos/34191142/pexels-photo-34191142.jpeg" alt="random fact">
-            <img src="https://images.pexels.com/photos/17588487/pexels-photo-17588487.jpeg" alt="random fact">
-            <a href="https://en.wikipedia.org/wiki/Lilium" class="btn btn-primary">Learn More</a>
-        </aside>
-    
-    </main>
+            <p>Lightning is hotter than the surface of the sun.</p>
+            <p>The sun's surface is about 10,000°F, while lightning can reach up to 54,000°F.</p>
+            <p>Lightning can strike the same place more than once.</p>
 
-        <div class="footer">
-            <p>Copyright 2026</p>
-            <p>All rights reserved</p>
+            <p>Below are some images of lightning:</p>
 
-        </div>
+            <img src="https://images.pexels.com/photos/17610011/pexels-photo-17610011.jpeg" alt="lightning">
+            <img src="https://images.pexels.com/photos/6942372/pexels-photo-6942372.jpeg" alt="lightning">
+            <a href="https://en.wikipedia.org/wiki/Sunset" class="btn btn-primary">Learn More</a>
+        </article>
+    </section>
+
+    <aside class="right-sidebar">
+        <h2>Random Facts</h2>
+        <p>Lizards communicate through push-ups.</p>
+        <p>A cat's slow blink is a sign of affection.</p>
+        <p>The temperature of a crocodile's nest determines the gender of the baby.</p>
+
+        <img src="https://images.pexels.com/photos/34191142/pexels-photo-34191142.jpeg" alt="animal">
+        <img src="https://images.pexels.com/photos/17588487/pexels-photo-17588487.jpeg" alt="animal">
+        <a href="https://en.wikipedia.org/wiki/Sunset" class="btn btn-primary">Learn More</a>
+    </aside>
+
+</main>
+
+<footer>
+    <p>© 2026 Nature Magazine</p>
+    <p>All rights reserved</p>
+</footer>
+
 </body>
 </html>
-
-        
-       
-
-
-    
