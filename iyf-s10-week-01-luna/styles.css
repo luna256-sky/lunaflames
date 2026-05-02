@@ -45,3 +45,9 @@ a:hover{
 a:visited{
     color: #af634c;
 }
+img{
+    max-width: 200px;
+    height: 100px;
+    display: block;
+    margin: 1rem 0;
+}
