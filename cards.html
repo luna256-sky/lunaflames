@@ -1,0 +1,157 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Layout</title>
+
+<style>
+.navbar {
+           display: flex;
+            background-color: #333;
+            justify-content: space-between;
+            align-items:center;       
+            padding: 10px;
+        }
+        .navbar logo{
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+
+        }
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+            color:blue
+        }
+        .navbar a:visited{
+            color:brown;
+        }
+        .navbar links{
+            display: flex;
+            gap: 20px;
+        }
+body {
+
+  font-family: Arial, sans-serif;
+}
+
+/* FLEX CONTAINER */
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* CARD */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* IMAGE */
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* BUTTON */
+.button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #0056b3;
+}
+.footer {
+  background: #333;
+  color: rgb(255, 144, 144);
+  padding: 20px;
+}
+
+/* TOP ROW */
+.footer-top {
+  display: flex; 
+  justify-content: space-between;
+}
+
+/* BOTTOM TEXT */
+.footer-bottom {
+  text-align: center; 
+  margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">My Website</div>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+<div class="card-container">
+
+  <div class="card">
+    <h2>Beautiful Sunset</h2>
+    <img src="https://images.pexels.com/photos/27058631/pexels-photo-27058631.png" alt="sunset">
+    <p>This is a simple card component.</p>
+    <a href="https://en.wikipedia.org/wiki/Sunset" class="btn btn-primary">Learn More</a>
+            
+  </div>
+
+  <div class="card">
+    <h2>Starry Night</h2>
+    <img src="https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg" alt="starry night">
+    <p>The beauty of the world when the sun goes down.</p>
+    <a href="https://en.wikipedia.org/wiki/Starry_Night" class="btn btn-primary">Learn More</a>
+  </div>
+
+  <div class="card">
+    <h2>Beautiful Beach</h2>
+    <img src="https://images.pexels.com/photos/12397457/pexels-photo-12397457.jpeg" alt="beach">
+    <p>The beauty of the world when the sun is up.</p>
+    <a href="https://en.wikipedia.org/wiki/Beach" class="btn btn-primary">Learn More</a>
+  </div>
+
+</div>
+
+<footer class="footer">
+
+        <div class="footer-top">
+            <div>About column</div>
+            <div>Link column</div>
+            <div>Contact column</div>
+        </div>
+
+        <div class="footer bottom"
+        copyright="2026">
+    </div>
+    </footer>
+
+</body>
+</html>
+```
