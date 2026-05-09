@@ -55,7 +55,8 @@ The portfolio includes multiple projects showcasing HTML and CSS skills.
 - Debugging navigation inconsistencies  
 
 ---
-
+### contact 
+_**Email:** skylaxglowfire@gmail.com 
 
 
 ---
